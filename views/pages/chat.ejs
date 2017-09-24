@@ -1,0 +1,17 @@
+<% for (messages of messages){ %>
+  <div class="comments">
+    <a class="avatar" style="float:left; padding-bottom:20px">
+      <img src="https://icon-icons.com/icons2/582/PNG/512/spy_icon-icons.com_55034.png" alt="" width="50px">
+    </a>
+    <div class="content">
+      <div class="metadata">
+        <div class="date">
+          <%= messages.date.fromNow() %>
+        </div>
+      </div>
+      <div class="test" style="height:80px;">
+        <%= messages.messages %>
+      </div>
+    </div>
+  </div>
+<% } %>

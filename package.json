@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "App chat nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rivanos/App_Chat.git"
+  },
+  "author": "Rivanos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rivanos/App_Chat/issues"
+  },
+  "homepage": "https://github.com/Rivanos/App_Chat#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "moments": "0.0.2",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.12.1"
+  }
+}
